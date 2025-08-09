@@ -6,18 +6,20 @@
 ## 🤔 这是什么？
 它是一个工作流。可快速构建 带docker且支持自定义固件大小的 immortalWrt
 > 1、支持自定义固件大小 默认1GB <br>
-> 2、支持预安装docker（可选）<br>
-> 3、目前支持x86-64 和 rockchip 两个平台（后续会增加）<br>
-> 4、新增支持MT3000/MT2500/MT6000/B2200（docker可选）<br>
-> 5、新增全志平台R1S、香橙派Zero3等机型的工作流<br>
-> 6、新增用户预设置pppoe拨号功能<br>
-> 7、新增树莓派①②③④⑤<br>
+> 2、支持可选预安装docker（可选）<br>
+> 3、支持按需增加第三方软件<br>
+> 4、点击这里查看👉🏻[全部支持的机型列表](https://github.com/wukongdaily/AutoBuildImmortalWrt/blob/master/SUPPORT.md) 👈🏻
 
 
-## 如何查询都有哪些插件?
-https://mirrors.sjtug.sjtu.edu.cn/immortalwrt/releases/23.05.4/packages/aarch64_cortex-a53/luci/ <br>
-https://mirrors.sjtug.sjtu.edu.cn/immortalwrt/releases/23.05.4/packages/x86_64/luci/ 
 
+## 如何查询imm仓库内有哪些插件
+https://mirrors.sjtug.sjtu.edu.cn/immortalwrt/releases/24.10.2/packages/x86_64/luci/
+## 如何查询imm仓库外目前可以集成哪些插件
+https://github.com/wukongdaily/store
+> 具体方法 https://github.com/wukongdaily/AutoBuildImmortalWrt/discussions/209
+## 【视频教程】如何集成第三方插件？
+https://www.youtube.com/watch?v=KN6AJYV1hBI <br>
+https://www.youtube.com/watch?v=7i6BQeitUtE
 
 ## 旁路由的用户必读
 近期不少用户修改配置文件中的默认ip地址，误认为这个工作流可以直接设置旁路ip。这是巨大的误解，这样设置就乱套了。<br>
@@ -44,14 +46,34 @@ https://mirrors.sjtug.sjtu.edu.cn/immortalwrt/releases/23.05.4/packages/x86_64/l
 - https://github.com/wukongdaily/RunFilesBuilder<br>
 - ### [一键生成docker离线镜像] 🆕
 - https://github.com/wukongdaily/DockerTarBuilder<br>
-- ### [OpenWrt/Armbian 安装器ISO] 🆕
+- ### [OpenWrt/Armbian IMG安装器ISO] 🆕
 - https://github.com/wukongdaily/armbian-installer
+
 
 ## ❤️如何构建docker版ImmortalWrt（建议收藏）⬇️
 https://wkdaily.cpolar.cn/15
 # 🌟鸣谢
 ### https://github.com/immortalwrt
+### https://github.com/ophub/flippy-openwrt-actions
+### https://github.com/ophub/amlogic-s9xxx-openwrt
+### https://github.com/sirpdboy
+### https://github.com/wukongdaily/ib-overlay
 
 ## ❤️赞助作者 ⬇️⬇️
 
 [![点击这里赞助我](https://img.shields.io/badge/点击这里赞助我-支持作者的项目-orange?logo=github)](https://wkdaily.cpolar.cn/01)
+
+
+
+
+<details>
+<summary><h2>🍭相关引用</h2></summary>
+
+#### 🍭引用和项目参考的仓库
+- https://github.com/wukongdaily/RunFilesBuilder
+- https://github.com/wukongdaily/store
+- https://github.com/xiaorouji/openwrt-passwall
+- https://github.com/xiaorouji/openwrt-passwall2
+- https://github.com/sirpdboy/luci-theme-kucat
+- https://github.com/AdguardTeam/AdGuardHome
+- https://github.com/kiddin9/kwrt-packages
